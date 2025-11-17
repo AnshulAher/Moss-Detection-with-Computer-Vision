@@ -26,9 +26,9 @@ def preprocess_and_save_images(input_folder, output_folder, target_size=(128, 12
     return preprocessed_images
 
 # Preprocess and save moss images
-preprocess_and_save_images(r"C:\Users\hp\Downloads\Internship_Research\Research\Research\omossimg1",
-                           r"C:\Users\hp\Downloads\Internship_Research\Research\Research\omossimg2")
+preprocess_and_save_images(r"Give_omossimg1_path",
+                           r"Give_omossimg2_path")
 
 # Preprocess and save non-moss images
-preprocess_and_save_images(r"C:\Users\hp\Downloads\Internship_Research\Research\Research\onmossimg1",
-                           r"C:\Users\hp\Downloads\Internship_Research\Research\Research\onmossimg2")
+preprocess_and_save_images(r"Give_onmossimg1_path",
+                           r"Give_onmossimg2_path")
