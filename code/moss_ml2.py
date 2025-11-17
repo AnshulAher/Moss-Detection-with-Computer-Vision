@@ -1,4 +1,4 @@
-import os
+_import os
 import cv2
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -22,8 +22,8 @@ def load_images_from_folder(folder, label, target_size=(128, 128)):
     return images, labels
 
 # Load moss and non-moss images
-moss_images, moss_labels = load_images_from_folder(r"C:\Users\hp\Downloads\Internship_Research\Research\Research\omossimg2", label=1)
-non_moss_images, non_moss_labels = load_images_from_folder(r"C:\Users\hp\Downloads\Internship_Research\Research\Research\onmossimg2", label=0)
+moss_images, moss_labels = load_images_from_folder(r"Give_omossimg2_folder_path", label=1)
+non_moss_images, non_moss_labels = load_images_from_folder(r"Give_onmossimg2_folder_path", label=0)
 
 # Combine images and labels
 images = np.array(moss_images + non_moss_images)
