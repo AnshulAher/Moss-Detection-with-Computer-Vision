@@ -24,4 +24,4 @@ def preprocess_images(input_folder, output_folder, target_size=(224, 224)):
         Image.fromarray((image * 255).astype(np.uint8)).save(output_path)
 
 # Replace placeholders with actual values
-preprocess_images(r"C:\Users\hp\Downloads\Internship_Research\Research\Research\nmoss_images", r"C:\Users\hp\Downloads\Internship_Research\Research\Research\onmossimg1")
+preprocess_images(r"Give_nmoss_images_folder_path", r"Give_onmossimg1_folder_path")
