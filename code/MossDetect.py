@@ -4,7 +4,7 @@ from playsound import playsound
 import tensorflow as tf
 
 # Load the trained ML model
-ml_model = tf.keras.models.load_model(r"C:\Users\hp\Downloads\Internship_Research\Research\Research\code\moss_detection_model.keras")
+ml_model = tf.keras.models.load_model(r"Give_moss_detection_model.keras_file_path")
 
 def detect_moss_ml(image):
     # Preprocess the input image for the ML model
